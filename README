@@ -1,0 +1,17 @@
+This library implements a subset-difference revocation scheme, like e.g. used
+by AACS.
+
+To compile the sdtree library, simply invoke make.
+If you want to compile on OS X, you have to uncomment a line in the makefile.
+
+To install invoke make install.
+
+To change the library and include installation paths, please edit the paths directly in the makefile.
+
+Gotchas:
+If "fsadm" seems to hang after startup that usually means that there 
+is not enough entropy available from /dev/random.
+
+Please note that this was developed for a research project and never reviewed by cryptographers - 
+do not use for anything where you actually need security.
+
