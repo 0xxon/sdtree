@@ -12,6 +12,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <unistd.h>
 
 using std::string;
 using std::cout;
